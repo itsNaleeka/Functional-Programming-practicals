@@ -7,7 +7,6 @@ object InventoryManagement {
   }
 
   def main(args: Array[String]): Unit = {
-    // Example data (replace with your actual inventory data)
     val itemNames = Array("Apples", "Bananas", "Oranges")
     val itemQuantities = Array(10, 15, 20)
 

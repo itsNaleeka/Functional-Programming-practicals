@@ -1,7 +1,6 @@
 import scala.io.StdIn._
 
 object ModifiedInventory {
-  // Example inventory data (replace with your actual data)
   val itemNames: Array[String] = Array("Apples", "Bananas", "Oranges")
   val itemQuantities: Array[Int] = Array(10, 15, 20)
 
@@ -12,11 +11,9 @@ object ModifiedInventory {
 
     val itemIndex = itemNames.indexOf(itemName)
     if (itemIndex != -1) {
-      // Item exists; update quantity
       itemQuantities(itemIndex) -= quantityToAdd
       println(s"Removed $itemName by $quantityToAdd. New quantity: ${itemQuantities(itemIndex)}")
     } else {
-      // Item does not exist
       println(s"$itemName does not exist in the inventory.")
     }
   }
