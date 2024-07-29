@@ -10,7 +10,7 @@ object q04 {
     def calculateShippingCost(totalUnits: Int): Double = {
       val firstCopyShipping = 3.0
       val additionalCopyShipping = 0.75
-      firstCopyShipping + (additionalCopyShipping * (totalUnits - 1))
+      firstCopyShipping*50 + (additionalCopyShipping * (totalUnits - 50))
     }
 
     def calculateTotalWholesaleCost(totalUnits: Int): Double = {
