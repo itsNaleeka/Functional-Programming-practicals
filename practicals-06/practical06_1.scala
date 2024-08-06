@@ -32,7 +32,7 @@ object WarehouseInventory {
           (p1._1, p1._2 + p2._2, Math.max(p1._3, p2._3))
         }
         id -> (name, totalQuantity, maxPrice)
-      }
+    }
 
     println("Merged Inventory: " + mergedInventory)
 
