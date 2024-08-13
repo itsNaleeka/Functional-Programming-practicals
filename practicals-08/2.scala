@@ -1,21 +1,15 @@
 object TakeInputs {
     def main(args: Array[String]): Unit = {
-        println("Enter number :")
-        val input = 16
+        print("Enter a number: ")
+        val input = scala.io.StdIn.readLine().toInt
 
-        val isDivByFive: Boolean = input % 5 == 0
-        val isDivByThree: Boolean = input % 3 == 0
+        val check:Int => String = {
+            case n if (n % 3 == 0 && n % 5 == 0) => "Multiple of Both Three and Five"
+            case n if (n % 3 == 0) => "Multiple of Three"
+            case n if (n % 5 == 0) => "Multiple of Five"
+            case _ => "Not a Multiple of Three or Five"
+        }
 
-        if(isDivByThree && isDivByFive){
-            println("Multiple of three and five")
-        }
-        else if(isDivByThree){
-            println("Multiple of three")
-        }
-        else if(isDivByFive){
-            println("Multiple of five")
-        } else {
-            println("Not a Multiple of three or five")
-        }
+        println(check(input))
     }
 }
