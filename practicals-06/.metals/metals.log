@@ -11055,3 +11055,244 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Program Fil
 2024.07.30 10:01:53 INFO  shutting down Metals
 2024.07.30 10:01:53 INFO  Exiting server
 2024.07.30 12:09:00 INFO  Started: Metals version 1.3.4 in folders 'D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06' for client Visual Studio Code 1.91.1.
+2024.08.27 00:17:12 INFO  Started: Metals version 1.3.5 in folders 'D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@30156ae9]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3a446a06]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@30156ae9]
+2024.08.27 00:17:13 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.27 00:17:15 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:15 ERROR Unexpected error initializing server: 
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Program Files\Git\bin\git.exe
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+	at java.nio.file.Path.of(Path.java:148)
+	at java.nio.file.Paths.get(Paths.java:69)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.$anonfun$localScalaCli$4(ScalaCli.scala:350)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:584)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:478)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:600)
+	at scala.collection.immutable.Stream$.fromIterator(Stream.scala:469)
+	at scala.collection.immutable.Stream$.from(Stream.scala:457)
+	at scala.collection.immutable.Stream$.from(Stream.scala:357)
+	at scala.collection.IterableFactory$ToFactory.fromSpecific(Factory.scala:274)
+	at scala.collection.IterableOnceOps.to(IterableOnce.scala:1437)
+	at scala.collection.IterableOnceOps.to$(IterableOnce.scala:1437)
+	at scala.collection.AbstractIterator.to(Iterator.scala:1303)
+	at scala.collection.IterableOnceOps.toStream(IterableOnce.scala:1482)
+	at scala.collection.IterableOnceOps.toStream$(IterableOnce.scala:1482)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1303)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.findInPath$1(ScalaCli.scala:353)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.$anonfun$localScalaCli$10(ScalaCli.scala:389)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.localScalaCli(ScalaCli.scala:391)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.localScalaCli$lzycompute(ScalaCliServers.scala:63)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.localScalaCli(ScalaCliServers.scala:62)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.setupIDE(ScalaCliServers.scala:68)
+	at scala.meta.internal.metals.ProjectMetalsLspService.maybeSetupScalaCli(ProjectMetalsLspService.scala:433)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$onInitialized$1(ProjectMetalsLspService.scala:504)
+	at scala.meta.internal.metals.ProjectMetalsLspService.withWillGenerateBspConfig(ProjectMetalsLspService.scala:113)
+	at scala.meta.internal.metals.ProjectMetalsLspService.onInitialized(ProjectMetalsLspService.scala:504)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$initialized$1(MetalsLspService.scala:694)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.08.27 00:17:23 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:28 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:28 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:37 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:37 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:37 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:40 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:50 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:53 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:53 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:17:54 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:18:33 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:18:33 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:18:37 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:18:41 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:18:41 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:26:51 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 00:27:37 INFO  Shutting down server
+2024.08.27 00:27:37 INFO  shutting down Metals
+2024.08.27 00:27:37 INFO  Exiting server
+2024.08.27 10:20:34 INFO  Started: Metals version 1.3.5 in folders 'D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6816ddaf]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@43110b3f]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6816ddaf]
+2024.08.27 10:20:35 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.27 10:20:37 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:20:37 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:20:37 ERROR Unexpected error initializing server: 
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Program Files\Git\bin\git.exe
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+	at java.nio.file.Path.of(Path.java:148)
+	at java.nio.file.Paths.get(Paths.java:69)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.$anonfun$localScalaCli$4(ScalaCli.scala:350)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:584)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:478)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:600)
+	at scala.collection.immutable.Stream$.fromIterator(Stream.scala:469)
+	at scala.collection.immutable.Stream$.from(Stream.scala:457)
+	at scala.collection.immutable.Stream$.from(Stream.scala:357)
+	at scala.collection.IterableFactory$ToFactory.fromSpecific(Factory.scala:274)
+	at scala.collection.IterableOnceOps.to(IterableOnce.scala:1437)
+	at scala.collection.IterableOnceOps.to$(IterableOnce.scala:1437)
+	at scala.collection.AbstractIterator.to(Iterator.scala:1303)
+	at scala.collection.IterableOnceOps.toStream(IterableOnce.scala:1482)
+	at scala.collection.IterableOnceOps.toStream$(IterableOnce.scala:1482)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1303)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.findInPath$1(ScalaCli.scala:353)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.$anonfun$localScalaCli$10(ScalaCli.scala:389)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.localScalaCli(ScalaCli.scala:391)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.localScalaCli$lzycompute(ScalaCliServers.scala:63)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.localScalaCli(ScalaCliServers.scala:62)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.setupIDE(ScalaCliServers.scala:68)
+	at scala.meta.internal.metals.ProjectMetalsLspService.maybeSetupScalaCli(ProjectMetalsLspService.scala:433)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$onInitialized$1(ProjectMetalsLspService.scala:504)
+	at scala.meta.internal.metals.ProjectMetalsLspService.withWillGenerateBspConfig(ProjectMetalsLspService.scala:113)
+	at scala.meta.internal.metals.ProjectMetalsLspService.onInitialized(ProjectMetalsLspService.scala:504)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$initialized$1(MetalsLspService.scala:694)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+Aug 27, 2024 10:20:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2024.08.27 10:22:27 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:27 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:30 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:35 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:35 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:36 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 27, 2024 10:22:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2024.08.27 10:22:36 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:36 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:36 WARN  no build target for: D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala
+2024.08.27 10:22:36 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 27, 2024 10:22:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2024.08.27 10:22:37 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:38 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:22:39 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:23:58 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:24:00 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:24:00 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:24:00 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:24:01 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:26:02 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:26:07 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:29:51 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:29:51 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:29:51 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:29:53 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:29:59 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:29:59 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:29:59 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:29:59 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:30:00 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:30:02 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:33:53 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:33:58 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:33:58 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:34:03 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:34:05 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:34:10 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:38:30 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:38:30 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:39:28 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:39:28 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:39:54 INFO  Shutting down server
+2024.08.27 10:39:54 INFO  shutting down Metals
+2024.08.27 10:39:54 INFO  Exiting server
+2024.08.27 10:54:42 INFO  Started: Metals version 1.3.5 in folders 'D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7b0ee7bc]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@111689f2]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7b0ee7bc]
+2024.08.27 10:54:45 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.27 10:54:47 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:54:47 ERROR Unexpected error initializing server: 
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Program Files\Git\bin\git.exe
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+	at java.nio.file.Path.of(Path.java:148)
+	at java.nio.file.Paths.get(Paths.java:69)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.$anonfun$localScalaCli$4(ScalaCli.scala:350)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:584)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:478)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:600)
+	at scala.collection.immutable.Stream$.fromIterator(Stream.scala:469)
+	at scala.collection.immutable.Stream$.from(Stream.scala:457)
+	at scala.collection.immutable.Stream$.from(Stream.scala:357)
+	at scala.collection.IterableFactory$ToFactory.fromSpecific(Factory.scala:274)
+	at scala.collection.IterableOnceOps.to(IterableOnce.scala:1437)
+	at scala.collection.IterableOnceOps.to$(IterableOnce.scala:1437)
+	at scala.collection.AbstractIterator.to(Iterator.scala:1303)
+	at scala.collection.IterableOnceOps.toStream(IterableOnce.scala:1482)
+	at scala.collection.IterableOnceOps.toStream$(IterableOnce.scala:1482)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1303)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.findInPath$1(ScalaCli.scala:353)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.$anonfun$localScalaCli$10(ScalaCli.scala:389)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.localScalaCli(ScalaCli.scala:391)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.localScalaCli$lzycompute(ScalaCliServers.scala:63)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.localScalaCli(ScalaCliServers.scala:62)
+	at scala.meta.internal.metals.scalacli.ScalaCliServers.setupIDE(ScalaCliServers.scala:68)
+	at scala.meta.internal.metals.ProjectMetalsLspService.maybeSetupScalaCli(ProjectMetalsLspService.scala:433)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$onInitialized$1(ProjectMetalsLspService.scala:504)
+	at scala.meta.internal.metals.ProjectMetalsLspService.withWillGenerateBspConfig(ProjectMetalsLspService.scala:113)
+	at scala.meta.internal.metals.ProjectMetalsLspService.onInitialized(ProjectMetalsLspService.scala:504)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$initialized$1(MetalsLspService.scala:694)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.08.27 10:55:09 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:55:09 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:55:09 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:55:10 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:55:10 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:19 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:22 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:22 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:25 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:35 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:35 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:53 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:53 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:56:55 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:57:05 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:57:05 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:57:08 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:57:20 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:57:21 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:57:20 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:57:21 INFO  no build target found for D:\2nd year\Functional Programming\Functional-Programming-practicals\practicals-06\practical06_2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.27 10:58:22 INFO  Shutting down server
+2024.08.27 10:58:22 INFO  shutting down Metals
+2024.08.27 10:58:22 INFO  Exiting server
